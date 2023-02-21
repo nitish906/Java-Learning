@@ -11,5 +11,25 @@ all the prime factorial of that number.
  */
 
 public class Main {
+	
+	static void primeFactors(int num) {
+		
+		for(int i=2; i<=num; i++) {
+			if(i%2==0) {
+				System.out.println("Prime Number "+i);
+			}
+			else {
+				System.out.println("Not Prime "+i);
+			}
+		}
+		System.out.println("Invalid Number");
+		
+	}
+	
+	public static void main(String[] args) {
+		Main c1=new Main();
+		c1.primeFactors(12);
+		
+	}
 
 }

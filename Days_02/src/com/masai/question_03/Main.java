@@ -15,5 +15,18 @@ any number as an argument and print the result.
  */
 
 public class Main {
+	
+	static void naturalNumber(int n) {
+		int x=(n*(n+1))/2;
+		System.out.println(x);
+	}
+	
+	public static void main(String[] args) {
+		
+		Main c1=new Main();
+		c1.naturalNumber(5);
+		
+	}
 
+	
 }
